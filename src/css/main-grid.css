@@ -1,0 +1,24 @@
+#main-grid {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 40px;
+  padding: 20px;
+  resize: both;
+  overflow-y: auto;
+  margin: auto;
+}
+
+/* Tablet: ≥ 600px */
+@media (min-width: 600px) {
+  #main-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop: ≥ 900px */
+@media (min-width: 900px) {
+  #main-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

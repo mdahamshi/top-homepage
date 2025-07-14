@@ -17,6 +17,16 @@
     sans-serif;
 }
 
+p {
+  margin-bottom: 16px;
+  line-height: 1.5;
+  word-spacing: 3px;
+}
+
+h2 {
+  margin-bottom: 24px;
+}
+
 :root {
   --lite-gray: #f0f1f4;
   --label-width: 120px;
@@ -24,12 +34,13 @@
   --sb-conent-bg: #fcf9f8;
   --sb-corner-radius: 12px;
   --sb-padding: 16px;
+  --sb-max-content-width: 1024px;
   --sb-border-color-thin: #f0f1f4;
   --sb-hero-bgc: #0891b2;
 }
 
 body {
-  height: 100dvh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
 }
@@ -38,9 +49,12 @@ img {
   width: 100%;
 }
 
-footer {
+footer.flex-col {
   margin-top: auto;
+  color: white;
   padding: 8px;
+  gap: 0;
+  background-color: var(--sb-theme-color);
 }
 
 .flex-row {
@@ -100,7 +114,7 @@ button:active,
   left: -90%;
   width: 200%;
   height: 100%;
-  background-color: var(--sb-hero-bgc);
+  background-color: var(--sb-theme-color);
   transform: rotate(-30deg);
   z-index: -1;
 }
@@ -159,8 +173,76 @@ header {
 
 .social-links svg {
   width: 30px;
+  fill: var(--sb-theme-color);
 }
 
+main {
+  max-width: var(--sb-max-content-width, 980px);
+  margin: auto;
+}
+main h1 {
+  margin-left: 20px;
+}
+
+footer {
+  background-image: url('../assets/footer.webp');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 16px;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--sb-theme-color);
+  opacity: 0.4;
+  pointer-events: none;
+}
+.footer-content {
+  z-index: 1;
+  padding: 32px;
+}
+footer div  {
+  z-index: 1;
+}
+.footer-image {
+  background-image: url('../assets/footer.webp');
+  height: 340px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+.footer-contact {
+  gap: 16px;
+}
+.contact a{
+  color: white;
+}
+.contact svg {
+  fill: white;
+  width: 30px;
+}
+footer .social-links {
+  align-self: flex-start;
+}
+footer .social-links svg {
+  fill: white;
+}
+footer a {
+  color: white !important;
+}
 /* TABLET */
 @media screen and (min-width: 500px) {
   .diagonal-bg {
@@ -187,7 +269,7 @@ header {
   }
 
   .header-image-wrapper img {
-    width: 400px;
+    max-width: 400px;
   }
 
   .header-img-text {
@@ -223,8 +305,11 @@ header {
     gap: 0;
   }
 
-  .about-me-text {
+  .header-image-wrapper img {
+    width: 400px;
   }
+
+  .about-me-text {}
 
   .about-me-text h2 {
     text-align: start;

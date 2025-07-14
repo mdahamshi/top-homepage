@@ -1,0 +1,38 @@
+.project-links svg {
+  width: 24px;
+  fill: var(--sb-theme-color);
+}
+
+.project-image {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.project {
+  background-color: white;
+  border-radius: 6px;
+  justify-content: space-between;
+  gap: 0;
+
+}
+
+.project-content {
+  flex-grow: 1;
+  padding: 16px;
+  gap: 24px;
+
+  border-top: 8px solid var(--sb-theme-color);
+
+}
+.project-header {
+  gap: 8px;
+  justify-content: space-between;
+}
+.project-header h3 {
+  font-size: 18px;
+}

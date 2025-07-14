@@ -59,4 +59,14 @@ export const jsonData = [
     id: "project-96fe5c45",
     git: "https://github.com/mdahamshi/random-quote-machine",
   },
+  {
+    title: "SaraShips | Battelship game",
+    description: `A modern take on the classic Battleship game, built with JavaScript.
+🎮 Turn-based gameplay against a smart computer opponent
+🧠 Simple AI logic for challenging yet fair battles`,
+    image: "https://github.com/mdahamshi/top-battleship/raw/main/sc2.png",
+    url: "https://mdahamshi.github.io/top-battleship",
+    id: "project-96fe5c45",
+    git: "https://github.com/mdahamshi/top-battleship",
+  },
 ];

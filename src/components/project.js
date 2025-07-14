@@ -11,7 +11,7 @@ export default function (project) {
   }
   const gitLink = new ElementBuilder("a")
     .addClass("clickable")
-    .setAttr("href", project.git)
+    .setAttr("href", project.git || 'http://github.com/mdahamshi')
     .setAttr("target", "_blank")
     .setAttr("aria-label", "project git url")
     .build();

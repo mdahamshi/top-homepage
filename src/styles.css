@@ -235,6 +235,7 @@ header {
     flex-direction: column;
     margin: 0;
     gap: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   }
 
   .header-image-placehold {
@@ -244,7 +245,8 @@ header {
   .header-image-wrapper {
     margin: 0;
     top: 0;
-    left: 0;
+    left: 10px;
+    z-index: 2;
   }
 
   .diagonal-bg {

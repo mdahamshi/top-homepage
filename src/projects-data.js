@@ -44,7 +44,7 @@ export const jsonData = [
     id: "project-ce731c39",
   },
   {
-    title: "Techlino | Linux & Web Guides",
+    title: "TicTacToe game",
     description: "TicTacToe game with random color each round",
     image: "https://github.com/mdahamshi/top-tictac/raw/main/sc.png",
     url: "https://mdahamshi.github.io/top-tictac",

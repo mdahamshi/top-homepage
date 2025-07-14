@@ -185,7 +185,7 @@ main h1 {
 }
 
 footer {
-  background-image: url('../assets/footer.webp');
+  background-image: url("../assets/footer.webp");
   height: 400px;
   background-repeat: no-repeat;
   background-position: center;
@@ -209,11 +209,11 @@ footer::before {
   z-index: 1;
   padding: 32px;
 }
-footer div  {
+footer div {
   z-index: 1;
 }
 .footer-image {
-  background-image: url('../assets/footer.webp');
+  background-image: url("../assets/footer.webp");
   height: 340px;
   width: 400px;
   background-repeat: no-repeat;
@@ -227,7 +227,7 @@ footer div  {
 .footer-contact {
   gap: 16px;
 }
-.contact a{
+.contact a {
   color: white;
 }
 .contact svg {
@@ -309,7 +309,8 @@ footer a {
     width: 400px;
   }
 
-  .about-me-text {}
+  .about-me-text {
+  }
 
   .about-me-text h2 {
     text-align: start;

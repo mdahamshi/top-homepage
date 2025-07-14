@@ -1,4 +1,4 @@
-import projectURIs, {jsonData} from "./projects-data.js";
+import projectURIs, { jsonData } from "./projects-data.js";
 import { LinkPreviewFetcher, generateID } from "@sarawebs/sb-utils";
 
 export class Model {
@@ -13,8 +13,7 @@ export class Model {
   initJson() {
     const data = jsonData;
     data.forEach((p) => this.#projects.push(p));
-        console.log(this.#projects)
-
+    console.log(this.#projects);
   }
   init() {
     this.projectsURIs.forEach((uri) => {
@@ -22,14 +21,14 @@ export class Model {
       fetcher
         .fetchPreview(uri)
         .then((data) => {
-          data.id = generateID('project');
+          data.id = generateID("project");
           this.#projects.push(data);
         })
         .catch((error) => {
           console.error("Error fetching preview:", error);
         });
     });
-    console.log(this.#projects)
+    console.log(this.#projects);
   }
   get projects() {
     return this.#projects;

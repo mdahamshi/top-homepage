@@ -58,6 +58,5 @@ export const jsonData = [
     url: "https://aya.dahamshi.xyz/",
     id: "project-96fe5c45",
     git: "https://github.com/mdahamshi/random-quote-machine",
-
   },
 ];

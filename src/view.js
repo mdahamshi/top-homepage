@@ -1,5 +1,5 @@
 import { addCopyRight, generateID, getRandomColor } from "@sarawebs/sb-utils";
-import createProject from './components/project.js'
+import createProject from "./components/project.js";
 
 export class View {
   constructor(appName) {
@@ -13,20 +13,19 @@ export class View {
       "#4692d9",
     ];
     this.colorize();
-    this.projectsList = document.getElementById('main-grid');
-
+    this.projectsList = document.getElementById("main-grid");
   }
-  colorize(){
+  colorize() {
     document.documentElement.style.setProperty(
       "--sb-theme-color",
-      getRandomColor()
+      getRandomColor(),
     );
   }
   renderProjects(projects) {
     projects.forEach((project) => {
       const projectView = createProject(project);
-      
+
       this.projectsList.appendChild(projectView);
-    })
+    });
   }
 }

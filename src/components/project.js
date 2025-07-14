@@ -2,12 +2,10 @@ import { ElementBuilder } from "@sarawebs/sb-utils";
 import "./project.css";
 export default function (project) {
   const defaultImg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>image-area</title><path d="M20,5A2,2 0 0,1 22,7V17A2,2 0 0,1 20,19H4C2.89,19 2,18.1 2,17V7C2,5.89 2.89,5 4,5H20M5,16H19L14.5,10L11,14.5L8.5,11.5L5,16Z" /></svg>`;
-  const projectImage = new ElementBuilder("div")
-    .addClass("project-image");
+  const projectImage = new ElementBuilder("div").addClass("project-image");
 
   if (project.image) {
-    projectImage.
-    setAttr('style', `background-image: url(${project.image})`); 
+    projectImage.setAttr("style", `background-image: url(${project.image})`);
   } else {
     projectImage.innerHTML = defaultImg;
   }
@@ -43,10 +41,10 @@ export default function (project) {
     .append(gitLink)
     .append(projectLink);
 
-  const projectContent = new ElementBuilder('div')
-    .addClass('project-content', 'flex-col')
+  const projectContent = new ElementBuilder("div")
+    .addClass("project-content", "flex-col")
     .append(
-       new ElementBuilder("div")
+      new ElementBuilder("div")
         .addClass("flex-row", "project-header")
         .append(
           new ElementBuilder("h3").setText(project.title || "Project title"),
@@ -56,7 +54,7 @@ export default function (project) {
     .append(
       new ElementBuilder("p")
         .addClass("project-desc")
-        .setText(project.description || "Project description")
+        .setText(project.description || "Project description"),
     );
   const li = new ElementBuilder("li")
     .addClass("flex-col", "project", "sb-shadow")

@@ -13,7 +13,6 @@ export class Model {
   initJson() {
     const data = jsonData;
     data.forEach((p) => this.#projects.push(p));
-    console.log(this.#projects);
   }
   init() {
     this.projectsURIs.forEach((uri) => {
@@ -28,7 +27,6 @@ export class Model {
           console.error("Error fetching preview:", error);
         });
     });
-    console.log(this.#projects);
   }
   get projects() {
     return this.#projects;

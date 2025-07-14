@@ -27,10 +27,13 @@
 
   border-top: 8px solid var(--sb-theme-color);
 }
+
 .project-header {
   gap: 8px;
   justify-content: space-between;
+  align-items: flex-start;
 }
+
 .project-header h3 {
   font-size: 18px;
 }

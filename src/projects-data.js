@@ -10,24 +10,26 @@ export default function () {
 
 export const jsonData = [
   {
-    title: "TapTip - You Tap, We Ship | Top Quality Products",
+    title: "TapTip - You Tap, We Ship | Top Quality Tech & Gadgets",
     description:
-      "Discover Smart Living. Elevate Your Lifestyle. Explore Innovative Tech Solutions. Welcome to TapTip, where convenience meets innovation.",
+      "Discover Smart Living. Elevate Your Lifestyle. Explore Innovative Tech Solutions. Welcome to TapTip, where convenience meets innovation and quality.",
     image: "https://media.taptip.shop/taptip/2024/01/cropped-gadget-1.webp",
     url: "https://taptip.shop/",
     id: "project-0b3334d5",
   },
   {
-    title: "SalmaTodo App",
-    description: "Simple todo app",
+    title: "SalmaTodo App - Simple and Effective Task Management",
+    description:
+      "A clean, minimalistic todo app to help organize your daily tasks efficiently.",
     image: "https://github.com/mdahamshi/top-todos/raw/main/sc.png",
     url: "https://mdahamshi.github.io/top-todos/",
     id: "project-36d05e8e",
     git: "https://github.com/mdahamshi/top-todos",
   },
   {
-    title: "Quaka | An Earhquakes Data visualization app",
-    description: "An erathwuakes app",
+    title: "Quaka | Earthquake Data Visualization & Analytics",
+    description:
+      "Interactive app presenting recent earthquake data with intuitive visuals and insights.",
     image:
       "https://github.com/mdahamshi/data-visualization/raw/master/screenshots/main2.png",
     url: "https://mdahamshi.github.io/data-visualization/",
@@ -35,35 +37,35 @@ export const jsonData = [
     git: "https://github.com/mdahamshi/data-visualization",
   },
   {
-    title: "Techlino | Linux & Web Guides",
+    title: "Techlino | Expert Linux & Web Development Guides",
     description:
-      "TechLino.net delivers practical tech tutorials, web development tips, WordPress guides, and digital tools to help developers and small businesses grow online.",
+      "TechLino.net offers comprehensive tutorials, WordPress tips, and digital tools to empower developers and small businesses.",
     image:
       "https://media.techlino.net/2025/05/cropped-cropped-logo-2-180x180.png",
     url: "https://techlino.net/",
     id: "project-ce731c39",
   },
   {
-    title: "TicTacToe game",
-    description: "TicTacToe game with random color each round",
+    title: "TicTacToe Game - Fun Classic Game with Dynamic Colors",
+    description:
+      "Engaging TicTacToe game featuring random colors each round for extra fun.",
     image: "https://github.com/mdahamshi/top-tictac/raw/main/sc.png",
     url: "https://mdahamshi.github.io/top-tictac",
     id: "project-ce731c39",
     git: "https://github.com/mdahamshi/top-tictac",
   },
   {
-    title: "Random Ayah | Share random Quran Ayat",
-    description: "Share radnom quran ayah easily",
+    title: "Random Ayah | Easily Share Inspirational Quran Verses",
+    description:
+      "Discover and share random Quranic Ayat to inspire and reflect anytime.",
     image: "https://aya.dahamshi.xyz/ayah.webp",
     url: "https://aya.dahamshi.xyz/",
     id: "project-96fe5c45",
     git: "https://github.com/mdahamshi/random-quote-machine",
   },
   {
-    title: "SaraShips | Battelship game",
-    description: `A modern take on the classic Battleship game, built with JavaScript.
-🎮 Turn-based gameplay against a smart computer opponent
-🧠 Simple AI logic for challenging yet fair battles`,
+    title: "SaraShips | Modern Battleship Game with Smart AI",
+    description: `Enjoy a modern twist on Battleship with turn-based gameplay against a simple but challenging computer AI.`,
     image: "https://github.com/mdahamshi/top-battleship/raw/main/sc2.png",
     url: "https://mdahamshi.github.io/top-battleship",
     id: "project-96fe5c45",

@@ -47,7 +47,16 @@ export default function (project) {
       new ElementBuilder("div")
         .addClass("flex-row", "project-header")
         .append(
-          new ElementBuilder("h3").setText(project.title || "Project title"),
+          new ElementBuilder("a")
+            .addClass("clickable", "project-title")
+            .setAttr("href", project.url)
+            .setAttr("target", "_blank")
+            .setAttr("aria-label", "project url")
+            .append(
+              new ElementBuilder("h3").setText(
+                project.title || "Project title",
+              ),
+            ),
         )
         .append(projectLinks),
     )
@@ -59,7 +68,13 @@ export default function (project) {
   const li = new ElementBuilder("li")
     .addClass("flex-col", "project", "sb-shadow")
     .setId(project.id)
-    .append(projectImage)
+    .append(
+      new ElementBuilder("a")
+        .setAttr("href", project.url)
+        .setAttr("target", "_blank")
+        .setAttr("aria-label", "project url")
+        .append(projectImage),
+    )
     .append(projectContent);
 
   return li.build();

@@ -37,3 +37,7 @@
 .project-header h3 {
   font-size: 18px;
 }
+.project-title {
+  text-decoration: none;
+  color: black;
+}

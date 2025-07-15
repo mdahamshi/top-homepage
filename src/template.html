@@ -45,13 +45,14 @@
       <div class="diagonal-bg"></div>
 
       <div class="header-image-wrapper sb-shadow">
-        <img
-          class="header-image"
-          src="../assets/me.webp"
-          srcset="../assets/me-v.webp 500w, ../assets/me-t.webp 600w"
-          sizes="(width < 500px) 500px, 600px"
-          alt="Mohammad\'s working on pc"
-        />
+        <picture>
+          <source media="(max-width: 500px)" srcset="../assets/me-v.webp" />
+          <img
+            src="../assets/me-t.webp"
+            alt="Mohammad's working on pc"
+            class="header-image"
+          />
+        </picture>
         <div class="header-img-text">
           <h1>Mohammad</h1>
           <h1>Dahamshi</h1>

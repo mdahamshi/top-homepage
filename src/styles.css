@@ -185,7 +185,7 @@ main h1 {
 
 footer {
   background-image: url("../assets/footer.webp");
-  height: 400px;
+  /* height: 400px; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -207,22 +207,12 @@ footer::before {
 .footer-content {
   z-index: 1;
   padding: 32px;
+  align-items: center;
 }
 footer div {
   z-index: 1;
 }
-.footer-image {
-  background-image: url("../assets/footer.webp");
-  height: 340px;
-  width: 400px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-  position: fixed;
-  right: 0px;
-  bottom: 0px;
-}
+
 .footer-contact {
   gap: 16px;
 }
@@ -242,12 +232,19 @@ footer .social-links svg {
 footer a {
   color: white !important;
 }
+.visitors-row {
+  z-index: 1;
+  align-items: center;
+}
 /* TABLET */
 @media screen and (min-width: 500px) {
   .diagonal-bg {
     top: -50%;
   }
-
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .header-image-wrapper {
     top: 20px;
     left: 20px;

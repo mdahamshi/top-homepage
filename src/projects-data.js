@@ -13,7 +13,7 @@ export const jsonData = [
     title: "TapTip - You Tap, We Ship | Top Quality Tech & Gadgets",
     description:
       "Discover Smart Living. Elevate Your Lifestyle. Explore Innovative Tech Solutions. Welcome to TapTip, where convenience meets innovation and quality.",
-    image: "https://media.taptip.shop/taptip/2024/01/cropped-gadget-1.webp",
+    image: "https://github.com/mdahamshi/top-homepage/blob/main/assets/taptip.png?raw=true",
     url: "https://taptip.shop/",
     id: "project-0b3334d5",
   },
@@ -21,7 +21,7 @@ export const jsonData = [
     title: "SalmaTodo App - Simple and Effective Task Management",
     description:
       "A clean, minimalistic todo app to help organize your daily tasks efficiently.",
-    image: "https://github.com/mdahamshi/top-todos/raw/main/sc.png",
+    image: "https://raw.githubusercontent.com/mdahamshi/top-homepage/refs/heads/main/assets/todo.png",
     url: "https://mdahamshi.github.io/top-todos/",
     id: "project-36d05e8e",
     git: "https://github.com/mdahamshi/top-todos",
@@ -41,7 +41,7 @@ export const jsonData = [
     description:
       "TechLino.net offers comprehensive tutorials, WordPress tips, and digital tools to empower developers and small businesses.",
     image:
-      "https://media.techlino.net/2025/05/cropped-cropped-logo-2-180x180.png",
+      "https://github.com/mdahamshi/top-homepage/blob/main/assets/techlino.png?raw=true",
     url: "https://techlino.net/",
     id: "project-ce731c39",
   },

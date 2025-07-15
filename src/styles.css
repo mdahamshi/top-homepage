@@ -110,12 +110,12 @@ button:active,
 
 .diagonal-bg {
   position: absolute;
-  top: -60%;
+  top: -70%;
   left: -90%;
   width: 200%;
   height: 100%;
   background-color: var(--sb-theme-color);
-  transform: rotate(-30deg);
+  transform: rotate(-25deg);
   z-index: -1;
 }
 

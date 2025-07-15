@@ -13,7 +13,8 @@ export const jsonData = [
     title: "TapTip - You Tap, We Ship | Top Quality Tech & Gadgets",
     description:
       "Discover Smart Living. Elevate Your Lifestyle. Explore Innovative Tech Solutions. Welcome to TapTip, where convenience meets innovation and quality.",
-    image: "https://github.com/mdahamshi/top-homepage/blob/main/assets/taptip.png?raw=true",
+    image:
+      "https://github.com/mdahamshi/top-homepage/blob/main/assets/taptip.png?raw=true",
     url: "https://taptip.shop/",
     id: "project-0b3334d5",
   },
@@ -21,7 +22,8 @@ export const jsonData = [
     title: "SalmaTodo App - Simple and Effective Task Management",
     description:
       "A clean, minimalistic todo app to help organize your daily tasks efficiently.",
-    image: "https://raw.githubusercontent.com/mdahamshi/top-homepage/refs/heads/main/assets/todo.png",
+    image:
+      "https://raw.githubusercontent.com/mdahamshi/top-homepage/refs/heads/main/assets/todo.png",
     url: "https://mdahamshi.github.io/top-todos/",
     id: "project-36d05e8e",
     git: "https://github.com/mdahamshi/top-todos",

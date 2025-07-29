@@ -19,6 +19,23 @@ export const jsonData = [
     id: "project-0b3334d5",
   },
   {
+    title: "SaraShop – Your Trusted Online Store for Quality Products",
+    description:
+      "Shop the best products at unbeatable prices. Discover great deals on electronics, fashion, home essentials, and more at SaraShop – Quality you can trust.",
+    image:
+      "https://github.com/mdahamshi/top-homepage/blob/main/assets/shop.png?raw=true",
+    url: "https://link.dahamshi.xyz/top-shop",
+    id: "project-0b3324d5",
+  },
+  {
+    title: "SaraMem | Memory Matching Card Game",
+    description:
+      "Sharpen your memory with SaraMem — the fun and addictive card matching game. Match Pokémon cards, track your best score, and challenge yourself every round!",
+    image: "https://github.com/mdahamshi/top-memcard/blob/main/sc.png?raw=true",
+    url: "https://link.dahamshi.xyz/top-memcard",
+    id: "project-343324d5",
+  },
+  {
     title: "SalmaTodo App - Simple and Effective Task Management",
     description:
       "A clean, minimalistic todo app to help organize your daily tasks efficiently.",

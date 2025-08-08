@@ -28,6 +28,24 @@ export const jsonData = [
     id: "project-0b3324d5",
   },
   {
+    title: "SaraMessage is a simple, full-stack messaging app",
+    description:
+      "SaraMessage is a simple, full-stack messaging app built with React, Express, and PostgreSQL. Users can submit, edit, and delete short messages",
+    image:
+      "https://github.com/mdahamshi/top-basic-msg-full/raw/main/sc.png?raw=true",
+    url: "https://link.sarawebs.com/saramsg",
+    id: "project-0bf28g4d5",
+  },
+  {
+    title: "Babble is a Simple Chat app",
+    description:
+      "babble chat , front-end 4 points course",
+    image:
+      "https://github.com/mdahamshi/babble/raw/master/ss/0.png?raw=true",
+    url: "https://link.sarawebs.com/babble",
+    id: "project-0bf224d5",
+  },
+  {
     title: "SaraMem | Memory Matching Card Game",
     description:
       "Sharpen your memory with SaraMem — the fun and addictive card matching game. Match Pokémon cards, track your best score, and challenge yourself every round!",

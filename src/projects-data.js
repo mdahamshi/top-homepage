@@ -38,10 +38,8 @@ export const jsonData = [
   },
   {
     title: "Babble is a Simple Chat app",
-    description:
-      "babble chat , front-end 4 points course",
-    image:
-      "https://github.com/mdahamshi/babble/raw/master/ss/0.png?raw=true",
+    description: "babble chat , front-end 4 points course",
+    image: "https://github.com/mdahamshi/babble/raw/master/ss/0.png?raw=true",
     url: "https://link.sarawebs.com/babble",
     id: "project-0bf224d5",
   },
